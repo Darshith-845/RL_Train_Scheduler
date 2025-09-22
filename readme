@@ -1,4 +1,13 @@
 Okay so I have started working on three apporadches greedy , milp and rl agent based
 
 I am more interested in seeing whether the rl based model works not 
-For now the emphasis is given on the 
+For now the emphasis is given on the conflict resolution , scheduling proiority , and using platforms efficiently
+
+Mean Reward: 41.94 Conflicts per Episode: 0.22 High Priority Success Rate: 97.0 % Avg Waiting Time: 1.84 Platform Utilization Balance: 0.255
+
+This was the initial results. Here it can be seen that platform utilization is pretty less thats why lets penalize the model when it doesn't spread accross all the platforms and reward it upon using all platforms efficiently
+Initially timestep was 50000, now i have made it 500000, which is around 245 iterations.
+
+Now this is what I am getting 
+Evaluation Results over 50 episodes Mean Reward: 49.0 Conflicts per Episode: 0.0 High Priority Success Rate: 100.0 % Avg Waiting Time: 0.0 Platform Utilization Balance: 0.25
+Yuss yuss and this is clearly overfitting with 0 conflicts and 100 percent high priority success, not to mention the platform utilization is 0,25 that is it is using 1 out of 4 platforms regularly that is it is exploiting one platform for maximum returns 
