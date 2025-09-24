@@ -11,3 +11,369 @@ Initially timestep was 50000, now i have made it 500000, which is around 245 ite
 Now this is what I am getting 
 Evaluation Results over 50 episodes Mean Reward: 49.0 Conflicts per Episode: 0.0 High Priority Success Rate: 100.0 % Avg Waiting Time: 0.0 Platform Utilization Balance: 0.25
 Yuss yuss and this is clearly overfitting with 0 conflicts and 100 percent high priority success, not to mention the platform utilization is 0,25 that is it is using 1 out of 4 platforms regularly that is it is exploiting one platform for maximum returns 
+
+
+Inorder to check whether it has overfitted or not , I created that file that will create random 50 timetable s and tested it and as I expected, this is what I get
+--- Evaluating Timetable 1 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -161.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 53.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 2 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -127.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 65.0
+Platform Utilization Balance: 0.5
+--- Evaluating Timetable 3 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -151.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 56.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 4 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 55.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 5 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -161.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 72.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 6 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -106.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 45.0
+Platform Utilization Balance: 0.5
+--- Evaluating Timetable 7 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -181.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 20.0 %
+Avg Waiting Time: 54.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 8 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -171.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 64.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 9 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -106.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 100.0 %
+Avg Waiting Time: 40.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 10 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -96.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 55.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 11 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -71.0
+Conflicts per Episode: 4.0
+High Priority Success Rate: 60.0 %
+Avg Waiting Time: 48.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 12 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -141.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 66.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 13 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -151.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 67.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 14 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -111.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 100.0 %
+Avg Waiting Time: 43.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 15 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 51.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 16 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 50.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 17 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -161.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 66.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 18 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -161.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 66.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 19 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -111.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 100.0 %
+Avg Waiting Time: 64.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 20 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -166.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 71.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 21 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 61.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 22 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -121.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 52.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 23 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -151.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 69.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 24 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -16.0
+Conflicts per Episode: 3.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 45.0
+Platform Utilization Balance: 0.5
+--- Evaluating Timetable 25 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -91.0
+Conflicts per Episode: 4.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 42.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 26 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -141.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 60.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 27 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -156.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 65.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 28 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -166.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 65.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 29 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -106.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 66.66666666666666 %
+Avg Waiting Time: 44.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 30 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 54.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 31 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 60.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 32 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 68.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 33 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -136.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 69.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 34 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -16.0
+Conflicts per Episode: 3.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 39.0
+Platform Utilization Balance: 0.5
+--- Evaluating Timetable 35 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -191.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 71.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 36 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -106.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 50.0 %
+Avg Waiting Time: 52.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 37 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -156.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 73.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 38 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -166.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 74.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 39 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -181.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 66.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 40 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -176.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 64.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 41 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -131.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 43.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 42 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -181.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 68.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 43 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -186.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 60.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 44 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -176.0
+Conflicts per Episode: 7.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 87.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 45 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -131.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 78.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 46 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -146.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 33.33333333333333 %
+Avg Waiting Time: 56.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 47 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -96.0
+Conflicts per Episode: 5.0
+High Priority Success Rate: 100.0 %
+Avg Waiting Time: 50.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 48 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -141.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 25.0 %
+Avg Waiting Time: 68.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 49 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -161.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 72.0
+Platform Utilization Balance: 0.25
+--- Evaluating Timetable 50 ---
+📊 Evaluation Results over 1 episodes
+Mean Reward: -151.0
+Conflicts per Episode: 6.0
+High Priority Success Rate: 0.0 %
+Avg Waiting Time: 69.0
+Platform Utilization Balance: 0.25
+
+Its definated overfitting 
+
+Okay I think the main reason of this overfitting is that it has trained on a single timetable and got used to it so lets generalize it for 50 timetables first
+Lets create a new file to generalize this 
+
+Evaluation Results over 50 episodes
+Mean Reward: 40.8
+Conflicts per Episode: 0.0
+High Priority Success Rate: 100.0 %
+Avg Waiting Time: 0.0
+
+Its again overfitting
